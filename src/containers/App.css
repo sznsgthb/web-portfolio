@@ -1,0 +1,157 @@
+@font-face {
+	font-family: 'Red Hat Display Light';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Red Hat Display'), url('/assets/RedHatDisplay-Light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Red Hat Display Semi Bold';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Red Hat Display'), url('/assets/RedHatDisplay-SemiBold.ttf') format('truetype');
+}
+
+/* @font-face {
+	font-family: 'American Typewriter Condensed Light';
+	font-style: normal;
+	font-weight: normal;
+	src: local('American Typewriter Condensed Light'), url('/assets/AmericanTypewriterCondensedLight.ttf') format('truetype');
+} */
+
+body {
+    font-family: 'Red Hat Display Light', Helvetica, Arial, sans-serif;
+    background-color: #272a30;
+    text-align: center;
+}
+
+.navbar {
+    font-family: 'Red Hat Display', Helvetica, Arial, sans-serif;
+ }
+ 
+ h1, h2, h3, p {
+    color: #fffce8;
+ }
+
+ h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+ }
+
+ h2 {
+    font-size: 1.5rem;
+ }
+
+ h3 {
+    font-size: 1rem;
+    font-family: 'Red Hat Display Semi Bold';
+ }
+
+ .intro-text {
+    text-align: left;
+    padding-left: 250px;
+    padding-top: 250px;
+    z-index: 10;
+  }
+
+  .typewriter {
+    font-family: 'Red Hat Display', Helvetica, Arial, sans-serif;
+    font-size: 4.5rem;
+    display: inline-block;
+    overflow: hidden;
+    border-right: 2px solid white; /* Typing cursor */
+    white-space: nowrap;
+    animation: typing 3s steps(7), blink 2s step-end infinite;
+}
+
+/* Typing animation (7 characters in "Welcome") */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 7.2ch;
+  }
+}
+
+/* Blinking cursor */
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+ 
+  .animation, .animation_layer {
+      height: 100vh;
+  }
+  
+  .animation {
+    display: block;
+      position: relative;
+      z-index: 10;
+  }
+  
+  .animation_layer {
+      background-size: cover;
+      width: 100%;
+      position: absolute;
+  }
+  .animation_layer.parallax {
+      position: fixed;
+  }
+  
+  #background {
+    background-image: url(/images/parallax/final-background-02.png);
+    height: 118vh; /* Set custom height */
+    position: absolute; /* Use absolute instead of fixed */
+    top: 0;
+    z-index: 0;
+  }
+  
+  #background.animation_layer.parallax {
+    position: absolute !important;
+  }
+
+  #clouds {
+    background-image: url(/images/parallax/clouds-n-birds.png);
+  }
+  
+  #mountain6 {
+    background-image: url(/images/parallax/mountain-6.png);
+  }
+  
+  #mountain5 {
+    background-image: url(/images/parallax/mountain-5.png);
+  }
+  
+  #mountain4 {
+    background-image: url(/images/parallax/mountain-4.png);
+  }
+  
+  #mountain3 {
+    background-image: url(/images/parallax/mountain-3.png);
+  }
+  
+  #mountain2 {
+    background-image: url(/images/parallax/mountain-2.png);
+  }
+  
+  #mountain1 {
+    background-image: url(/images/parallax/mountain-1.png);
+    bottom: -1vh;
+  }
+  
+  #trees {
+    background-image: url(/images/parallax/trees.png);
+    bottom: -38vh;
+  }
+
+  #land {
+    background-image: url(/images/parallax/land-n-cliffs.png);
+    bottom: -90svh;
+  }
+
+  #rocks {
+    background-image: url(/images/parallax/rocks-front.png);
+    bottom: -58vh;
+  }

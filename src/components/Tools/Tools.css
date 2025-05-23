@@ -1,0 +1,44 @@
+.logo-container-gd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem; /* optional spacing between elements */
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+.logo-container-fe {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem; /* optional spacing between elements */
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  .logo-container-be {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem; /* optional spacing between elements */
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+ .logo img {
+    height: 60px;
+    width: auto;
+  }

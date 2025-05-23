@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; /* keep it responsive */
+    gap: 2rem; /* optional spacing between elements */
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.introduction {
+    flex: 1;
+    min-width: 600px;
+    max-width: 600px;
+}
+
+.picture {
+    flex: 1;
+    min-width: 600px;
+    max-width: 600px;
+}
+
+.picture img {
+    height: 600px;
+    width: 600px;;
+}
