@@ -18,10 +18,10 @@ function About() {
                         <p>.. opleiding full-stack development</p>
                         <br />
                         <h1>Just for fun </h1>
-                        <p>When I’m not lost in my Figma files, you can find me scaling walls at my local bouldering gym, keeping my kittens off of my keyboard, or learning new jazz chords on the guitar!</p>
+                        <p>...</p>
                         <br />
                         <h1>Journey </h1>
-                        <p> Curious about my path? Click here to see a timeline of my education and career journey. </p>
+                        <p>Click here to see a timeline of my education and career journey. </p>
                 </div>
                 <div className='picture'>
                     <img src={profilepicture} alt='picture' />
