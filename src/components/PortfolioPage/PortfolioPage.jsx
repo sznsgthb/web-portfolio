@@ -2,7 +2,7 @@ import React from 'react';
 import './PortfolioPage.css'
 import thumbnail1 from '/images/thumbnails/leaves.png';
 // import thumbnail2 from '/images/thumbnails/smartbrain.png';
-// import thumbnail3 from '/images/thumbnails/extinct.png';
+import thumbnail3 from '/images/thumbnails/extinct.png';
 import thumbnail4 from '/images/thumbnails/robots.png';
 
 function PortfolioPage() {
@@ -21,21 +21,21 @@ function PortfolioPage() {
             title: 'Smart Brain',
             description: 'Short description of project two.',
             // image: thumbnail2,
-            link1: '',
-            link2: ''
+            link1: 'https://smart-brain-k79y.onrender.com/',
+            link2: 'https://github.com/sznsgthb/smart-brain'
         },
         {
             id: 3,
             title: 'Extinct Animals',
             description: 'Short description of project three.',
-            // image: thumbnail3,
-            link1: '',
-            link2: ''
+            image: thumbnail3,
+            link1: 'https://extinct-animals.onrender.com/',
+            link2: 'https://github.com/sznsgthb/extinct-animals'
         },
         {
             id: 4,
             title: 'Robo Friends',
-            description: 'A simple, scrollable interface with automatically generated robots from an API with a searchbar.',
+            description: 'A simple, scrollable React interface with automatically generated robots from an API with a searchbar.',
             image: thumbnail4,
             link1: 'https://sznsgthb.github.io/robofriends/',
             link2: 'https://github.com/sznsgthb/robofriends'
