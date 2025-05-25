@@ -1,0 +1,44 @@
+/* .container-header1 {
+    text-align: left;
+    padding-left: 250px;
+    padding-top: 200px;
+    z-index: 10;
+  } */
+
+  /* .container-header2 {
+    text-align: left;
+    padding-left: 300px;
+    padding-top: 250px;
+    z-index: 10;
+  } */
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+      visibility: hidden;
+    }
+   100% {
+      opacity: 1;
+      transform: translateY(0);
+      visibility: visible;
+    }
+  }
+  
+  .text-header1 {
+    font-family: 'Red Hat Display Light', Helvetica, Arial, sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    display: inline-block;
+    animation: fadeIn 5s ease forwards;
+    animation-delay: 0.4s;
+  }
+  
+  .text-header2 {
+    font-family: 'Red Hat Display Light', Helvetica, Arial, sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    display: inline-block;
+    animation: fadeIn 5s ease forwards;
+    animation-delay: 2s;
+  }

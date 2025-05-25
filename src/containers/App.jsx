@@ -8,6 +8,7 @@ import Tools from '../components/Tools/Tools';
 import About from '../components/About/About';
 import Contact from '../components/Contact/Contact';
 import './App.css';
+import 'animate.css';
 
 function App() {
     const parallaxRef = useRef();
@@ -28,8 +29,14 @@ function App() {
                         </ParallaxLayer>
 
                         <ParallaxLayer offset={0} speed={0.25}>
-                            <div className="intro-text">
-                                <h1 className="typewriter">Welcome</h1>
+                            <div className='container-welcome'>
+                                <h1 className='text-welcome'>Welcome</h1>
+                            </div>
+                            </ParallaxLayer>
+
+                        <ParallaxLayer offset={0} speed={0.25}>
+                            <div className='container-unfold'>
+                                <h1 className='text-unfold'>Scroll to unfold..</h1>
                             </div>
                         </ParallaxLayer>
 

@@ -7,8 +7,12 @@ function Intro() {
         <>
             <div>
                 <div>
-                    <h1>Hi there, my name is Suzanne.</h1>
-                    <h1>How lovely that you found my page.</h1>
+                    <div className='container-header1'>
+                        <h1 className='text-header1'>Hi there, my name is Suzanne.</h1>
+                    </div>
+                    <div className='container-header2'>
+                       <h1 className='text-header2'>How lovely that you found my page.</h1>
+                    </div>
                     <br />
                         <p>As a self-taught web designer and full-stack developer i thoroughly enjoy creating colourful and visually rich, yet simple and user-friendly web experiences.</p>
                          <p>While I’m still early in my professional journey, I bring a strong foundation in React, a sharp eye for design and detail, and a huge enthusiasm for building thoughtful digital experiences.</p>
