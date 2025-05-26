@@ -131,7 +131,7 @@ body {
   
   #background {
     background-image: url(/images/parallax/final-background-02.png);
-    height: 118vh; /* Set custom height */
+    height: 125vh; /* Set custom height */
     position: absolute; /* Use absolute instead of fixed */
     top: 0;
     z-index: 0;
@@ -142,7 +142,7 @@ body {
   }
 
   #clouds {
-    background-image: url(/images/parallax/clouds-n-birds.png);
+    background-image: url(/images/parallax/clouds.png);
   }
   
   #mountain6 {
@@ -163,24 +163,30 @@ body {
   
   #mountain2 {
     background-image: url(/images/parallax/mountain-2.png);
+    bottom: -5.1vh;
   }
   
-  #mountain1 {
-    background-image: url(/images/parallax/mountain-1.png);
-    bottom: -1vh;
+  #cliffs {
+    background-image: url(/images/parallax/cliffs.png);
+    bottom: -40vh;
   }
   
   #trees {
     background-image: url(/images/parallax/trees.png);
-    bottom: -38vh;
+    bottom: -40vh;
   }
 
-  #land {
-    background-image: url(/images/parallax/land-n-cliffs.png);
-    bottom: -90svh;
+  #land2 {
+    background-image: url(/images/parallax/land-2.png);
+    bottom: -91vh;
+  }
+
+  #land1 {
+    background-image: url(/images/parallax/land-1.png);
+    bottom: -97vh;
   }
 
   #rocks {
     background-image: url(/images/parallax/rocks-front.png);
-    bottom: -58vh;
+    bottom: -71vh;
   }

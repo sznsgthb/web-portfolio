@@ -18,7 +18,7 @@ import nodejs from '/images/logos/node-logo.svg';
 function Tools() {
     return (
         <>
-                <h1>.. made with my preferred technologies</h1>
+                <h1>.. curated with my preferred tools</h1>
                 <br/>
 
 

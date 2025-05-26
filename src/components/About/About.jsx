@@ -9,13 +9,13 @@ function About() {
             <div className='container'>
                 <div className='introduction'>
                     <h1>A bit about me... </h1>
-                        <p>Bepakt en bezakt met een onuitputtelijke nieuwsgierigheid kenmerkt m'n loopbaan zich voortdurend willen uitbreiden van m'n vaardigheden. </p>
+                        <p>... </p>
                         <br />
                         <p>
-                        Uitgerust met de kennis vanuit mijn studie om adoptie te vergroten t.o.v. ehealth heb ikjaren  gewijdt aan het bouwen van content en het vormgeven van een grote verscheidenheid aan visuals. 
+                        ...
                         </p>
                         <br />
-                        <p>.. opleiding full-stack development</p>
+                        <p>...</p>
                         <br />
                         <h1>Just for fun </h1>
                         <p>...</p>
