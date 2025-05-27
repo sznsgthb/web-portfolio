@@ -8,7 +8,7 @@ function Intro() {
             <div>
                 <div>
                     <div className='container-header1'>
-                        <h1 className='text-header1'>Hello there,</h1>
+                        <h1 className='text-header1'>Hi there,</h1>
                         </div>
                     <div className='container-header2'>
                         <h1 className='text-header2'>my name is Suzanne.</h1>
