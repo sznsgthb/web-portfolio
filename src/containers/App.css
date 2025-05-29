@@ -56,7 +56,7 @@ body {
  .container-welcome {
     text-align: left;
     padding-left: 250px;
-    padding-top: 200px;
+    padding-top: 175px;
     z-index: 10;
   }
 
@@ -70,7 +70,7 @@ body {
   @keyframes fadeInPauseFadeOut {
     0% {
       opacity: 0;
-      transform: translateY(-20px);
+      transform: translateY(-10px);
       visibility: hidden;
     }
     25% {
@@ -85,7 +85,7 @@ body {
     }
     100% {
       opacity: 0;
-      transform: translateY(20px);
+      transform: translateY(0px);
       visibility: hidden;
     }
   }
@@ -102,7 +102,7 @@ body {
   
   .text-unfold {
     font-family: 'Red Hat Display Light', Helvetica, Arial, sans-serif;
-    font-size: 3.5rem;
+    font-size: 3rem;
     opacity: 0;
     visibility: hidden;
     display: inline-block;
@@ -188,5 +188,5 @@ body {
 
   #rocks {
     background-image: url(/images/parallax/rocks-front.png);
-    bottom: -71vh;
+    bottom: -83vh;
   }

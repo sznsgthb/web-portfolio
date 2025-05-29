@@ -1,52 +1,8 @@
-.container-header1 {
-    position: relative;
-    left: -220px;
-    top: -45px;
-    z-index: 10;
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;/* vertically centers if needed */
+    gap: 0.7rem;
+    margin-bottom: 1rem; /* optional space between the two headers */
   }
-
-
-  .container-header2 {
-    position: relative;
-    left: 50px;
-    top: -65px;
-    z-index: 10;
-  }
-
-  .container-header3 {
-    position: relative;
-    z-index: 10;
-  }
-
   
-
-  /* @keyframes fadeIn {
-    0% {
-      opacity: 0;
-      transform: translateY(-20px);
-      visibility: hidden;
-    }
-   100% {
-      opacity: 1;
-      transform: translateY(0);
-      visibility: visible;
-    }
-  } */
-  
-  /* .text-header1 {
-    font-family: 'Red Hat Display Light', Helvetica, Arial, sans-serif;
-    opacity: 0;
-    visibility: hidden;
-    display: inline-block;
-    animation: fadeIn 5s ease forwards;
-    animation-delay: 0.4s;
-  } */
-  
-  /* .text-header2 {
-    font-family: 'Red Hat Display Light', Helvetica, Arial, sans-serif;
-    opacity: 0;
-    visibility: hidden;
-    display: inline-block;
-    animation: fadeIn 5s ease forwards;
-    animation-delay: 2s;
-  } */

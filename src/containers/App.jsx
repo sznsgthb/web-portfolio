@@ -8,7 +8,6 @@ import Tools from '../components/Tools/Tools';
 import About from '../components/About/About';
 import Contact from '../components/Contact/Contact';
 import './App.css';
-import 'animate.css';
 
 function App() {
     const parallaxRef = useRef();
@@ -36,7 +35,7 @@ function App() {
 
                         <ParallaxLayer offset={0} speed={0.25}>
                             <div className='container-unfold'>
-                                <h1 className='text-unfold'>.. scroll down to read on</h1>
+                                <h1 className='text-unfold'>.. scroll to explore</h1>
                             </div>
                         </ParallaxLayer>
 

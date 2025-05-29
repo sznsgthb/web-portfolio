@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from '../../containers/ScrollAnimation';
 import './PortfolioPage.css'
 import thumbnail1 from '/images/thumbnails/leaves.png';
 import thumbnail2 from '/images/thumbnails/smartbrain.png';
@@ -19,7 +20,7 @@ function PortfolioPage() {
         {
             id: 2,
             title: 'Smart Brain',
-            description: 'A full-stack face detection app built with React, Node.js, Express, and PostgreSQL. Users can register, sign in, and submit image URLs to detect faces and corresponding sentiments using the Clarifai API. Includes a working backend, user authentication, and database integration.',
+            description: 'A full-stack face detection app built with React, Node.js, Express, and PostgreSQL. Users can register, sign in, and submit image URLs to detect faces and corresponding sentiments using the Clarifai API. Includes a working backend, user authentication, and database integration. For this variant, React classes and tachyons were used',
             image: thumbnail2,
             link1: 'https://smart-brain-k79y.onrender.com/',
             link2: 'https://github.com/sznsgthb/smart-brain'
@@ -27,7 +28,7 @@ function PortfolioPage() {
         {
             id: 3,
             title: 'Extinct Animals',
-            description: 'An educational web app that fetches data from an external API to showcase extinct animals. It features a visually engaging timeline and an interactive world map pinpointing where each species was last observed. Built with a React frontend and a custom server (Node.js and Express).',
+            description: 'An educational web app that fetches data from an external API to showcase extinct animals. It features a visually engaging timeline and an interactive world map pinpointing where each species was last observed. Built with a React frontend and Node.js to retrieve the coordinates',
             image: thumbnail3,
             link1: 'https://extinct-animals.onrender.com/',
             link2: 'https://github.com/sznsgthb/extinct-animals'
@@ -44,10 +45,19 @@ function PortfolioPage() {
 
     return (
         <>
-            <h1>Here you find my recent creations</h1>
+            <ScrollAnimation animation="fadeInUp" delay={500}>
+                <h1>Here you'll find my recent creations</h1>
+            </ScrollAnimation>
+
+            
             <div className="portfolio-wrapper">
             {projects.map((project, index) => (
-                <div className="project-section" key={project.id}>
+                  <ScrollAnimation
+                  key={project.id}
+                  animation="fadeInUp"
+                  delay={index === 0 ? 1000 : 200}
+                >
+                <div className="project-section">
                     <div
                         className={`project-content ${index % 2 === 0 ? 'normal' : 'reversed'}`}
                     >
@@ -94,6 +104,7 @@ function PortfolioPage() {
                     </div>
                     </div>
                 </div>
+                </ScrollAnimation>
             ))}
             </div>
     </>

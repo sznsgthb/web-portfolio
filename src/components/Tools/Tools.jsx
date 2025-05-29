@@ -1,9 +1,10 @@
 import React from 'react';
+import ScrollAnimation from '../../containers/ScrollAnimation';
 import './Tools.css';
 import html5 from '/images/logos/html-logo.svg';
 import css3 from '/images/logos/css-logo.svg';
 import javascript from '/images/logos/js-logo.svg';
-import typescript from '/images/logos/ts-logo.svg';
+// import typescript from '/images/logos/ts-logo.svg';
 import reactjs from '/images/logos/react-logo.svg';
 import adobe from '/images/logos/acc-logo.svg';
 import illustrator from '/images/logos/ai-logo.svg';
@@ -18,16 +19,19 @@ import nodejs from '/images/logos/node-logo.svg';
 function Tools() {
     return (
         <>
-                <h1>.. curated with my preferred tools</h1>
+            <ScrollAnimation animation="fadeInUp" delay={500}>
+                <h1>.. curated with the following tools</h1>
                 <br/>
+                </ScrollAnimation> 
 
-
-                <h2>Graphic design</h2>
-                    <div className='logo-container-gd'>
-                        <div className='logo'>
-                            <img src={adobe} alt='logo' />
-                            <p>Adobe Creative Cloud</p>
-                        </div>
+                <ScrollAnimation animation="fadeInUp" delay={1000}>                    
+                    <h2>Graphic design</h2>
+                </ScrollAnimation>
+                        <div className='logo-container-gd'>
+                            <div className='logo'>
+                                <img src={adobe} alt='logo' />
+                                <p>Adobe Creative Cloud</p>
+                            </div>
 
                         <div className='logo'>
                             <img src={illustrator} alt='logo' />
@@ -45,8 +49,9 @@ function Tools() {
                         </div>
                     </div>
 
-
+            <ScrollAnimation animation="fadeInUp" delay={1200}>
                 <h2>Front-end</h2>
+            </ScrollAnimation>
                     <div className='logo-container-fe'>
 
                         <div className='logo'>
@@ -59,10 +64,10 @@ function Tools() {
                             <p>JavaScript</p>
                         </div>
 
-                        <div className='logo'>
+                        {/* <div className='logo'>
                             <img src={typescript} alt='logo' />
                             <p>TypeScript</p>
-                        </div>
+                        </div> */}
 
                         <div className='logo'>
                             <img src={css3} alt='logo' />
@@ -81,7 +86,10 @@ function Tools() {
 
                     </div>
                 <br />
+
+            <ScrollAnimation animation="fadeInUp" delay={1400}>  
                 <h2>Back-end</h2>
+            </ScrollAnimation>
                     <div className='logo-container-be'>
 
                         <div className='logo'>
