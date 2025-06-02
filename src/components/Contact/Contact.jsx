@@ -14,22 +14,22 @@ function Contact() {
             <h1>Thanks for stopping by!</h1>
         </ScrollAnimation>
             
-        <ScrollAnimation animation="fadeInUp" delay={1800}>    
+        <ScrollAnimation animation="fadeInUp" delay={2000}>    
             <h1>Let's connect.</h1>
         </ScrollAnimation>
       </div>
 
       <div className="contact-grid">
 
-        <ScrollAnimation animation="fadeInUp" delay={2300}>    
+        <ScrollAnimation animation="fadeInUp" delay={2800}>    
             <h3>Shoot me a message:</h3>
         </ScrollAnimation>
 
-        <ScrollAnimation animation="fadeInUp" delay={3100}>  
+        <ScrollAnimation animation="fadeInUp" delay={3600}>  
             <h3>.. or find me on these platforms:</h3>
         </ScrollAnimation>
 
-        <ScrollAnimation animation="fadeIn" delay={2500}>  
+        <ScrollAnimation animation="fadeIn" delay={3000}>  
             <div className="logo-container-email">   
                 <div className="container-email">
                 <img src={mail} alt="email logo" />
@@ -38,7 +38,7 @@ function Contact() {
             </div>
         </ScrollAnimation>
 
-        <ScrollAnimation animation="fadeIn" delay={3300}>  
+        <ScrollAnimation animation="fadeIn" delay={3800}>  
             <div className="logo-container-sm">
             <div className="logo-sm">
                 <img src={linkedin} alt="LinkedIn logo" />

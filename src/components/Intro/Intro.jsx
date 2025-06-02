@@ -23,7 +23,7 @@ function Intro() {
                             <h2 className='text-header3'>How great that you found your way to my page.</h2>
                         </ScrollAnimation>
                         <ScrollAnimation animation="fadeInUp" delay={3500}>
-                            <h2 className='text-header3'>Here you'll find a peek into the things i've been creating — with care, curiosity and a bit of color.</h2>
+                            <h2 className='text-header3'>Here you'll find a peek into the things i've been creating — with care, curiosity and a 'bit' of color.</h2>
                         </ScrollAnimation>
                     </div>
                     

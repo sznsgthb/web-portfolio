@@ -27,13 +27,13 @@ function App() {
                             <div className='animation_layer parallax' id='background'></div>
                         </ParallaxLayer>
 
-                        <ParallaxLayer offset={0} speed={-0.20}>
+                        <ParallaxLayer offset={0} speed={-0.10}>
                             <div className='container-welcome'>
                                 <h1 className='text-welcome'>Welcome</h1>
                             </div>
                             </ParallaxLayer>
 
-                        <ParallaxLayer offset={0} speed={-0.20}>
+                        <ParallaxLayer offset={0} speed={-0.10}>
                             <div className='container-unfold'>
                                 <h1 className='text-unfold'>scroll to read on..</h1>
                             </div>
@@ -63,7 +63,7 @@ function App() {
                             <div className='animation_layer parallax' id='mountain2'></div>
                         </ParallaxLayer>
 
-                        <ParallaxLayer offset={0} speed={0.02}>
+                        <ParallaxLayer offset={0} speed={0.04}>
                             <div className='animation_layer parallax' id='mountain1'></div>
                         </ParallaxLayer>
 
