@@ -9,21 +9,31 @@ function Intro() {
         <>
             <div>
                 <div>
-                    <div className='container-header'>
-                        <ScrollAnimation animation="fadeInUp" delay={500}>
+                    <div className='container-h1'>
+                        <ScrollAnimation animation="fadeInUp" delay={1000}>
                             <h1 className='text-header1'>Hi there,</h1>
                         </ScrollAnimation>
-                        <ScrollAnimation animation="fadeInUp" delay={1000}>
+                        <ScrollAnimation animation="fadeInUp" delay={2000}>
                             <h1 className='text-header2'>my name is Suzanne.</h1>
                         </ScrollAnimation>
                     </div>
 
-                    <ScrollAnimation animation="fadeInUp" delay={1500}>
+                <div className='container-h2'>
+                    <ScrollAnimation animation="fadeInUp" delay={3000}>
+                            <h2 className='text-header3'>How great that you found your way to my page.</h2>
+                        </ScrollAnimation>
+                        <ScrollAnimation animation="fadeInUp" delay={3500}>
+                            <h2 className='text-header3'>Here you'll find a peek into the things i've been creating — with care, curiosity and a bit of color.</h2>
+                        </ScrollAnimation>
+                    </div>
+                    
+
+                    <ScrollAnimation animation="fadeInUp" delay={5000}>
                         <div className='intro-text'>
-                            <p>As a self-taught designer and full-stack web developer I thoroughly enjoy creating colourful and visually rich, yet simple and user-friendly web experiences.</p>
-                            <p>While I’m still early in my professional journey, I bring a strong foundation in React, a sharp eye for design and detail, and a huge enthusiasm for building thoughtful digital experiences.</p>
-                            <p>I am motivated by using technology and design with intention — to serve a purpose and make a connection with you, the viewer.</p>
-                            <p>On this page, you will find what I have been up to so far.</p>
+                            <p>As a content creator and full stack web developer i'm excited about crafting colourful, visually rich, yet simple and user-friendly web experiences.</p>
+                            <p>While I'm still early in my professional journey, I bring a strong foundation in React, a sharp eye for detail, and genuine enthusiasm for building thoughtful digital experiences.</p>
+                            <p>I'm driven by the belief that technology and design should serve a purpose — to connect, inspire, to tell a story, or make life just a little easier.</p>
+                            <p>On this page, you'll find a selection of the projects I've been working on.</p>
                                 <br />
                             <p>Happy browsing!</p>
                         </div>

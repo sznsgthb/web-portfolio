@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Moon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3257 1845.63">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="2757.01" y1="1386.88" x2="2757.45" y2="-160.19" gradientUnits="userSpaceOnUse">
+      <stop offset=".43" stop-color="#fdb87c" stop-opacity=".8"/>
+      <stop offset=".47" stop-color="#fdcb9b" stop-opacity=".8"/>
+      <stop offset=".51" stop-color="#feddb7" stop-opacity=".8"/>
+      <stop offset=".56" stop-color="#feebcd" stop-opacity=".8"/>
+      <stop offset=".62" stop-color="#fef4dc" stop-opacity=".8"/>
+      <stop offset=".7" stop-color="#fefae5" stop-opacity=".8"/>
+      <stop offset=".91" stop-color="#fffce8" stop-opacity=".8"/>
+    </linearGradient>
+  </defs>
+  <circle class="cls-1" cx="2757.26" cy="504.32" r="229.95"/>
+</svg>

@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 2rem; /* optional spacing between elements */
+    gap: 2rem; 
     max-width: 900px;
     margin: 0 auto;
     padding: 2rem;
@@ -14,8 +14,8 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 2rem; /* optional spacing between elements */
-    max-width: 1300px;
+    gap: 2rem; 
+    max-width: 1100px;
     margin: 0 auto;
     padding: 2rem;
   }
@@ -25,7 +25,7 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 2rem; /* optional spacing between elements */
+    gap: 2rem; 
     max-width: 360px;
     margin: 0 auto;
     padding: 2rem;

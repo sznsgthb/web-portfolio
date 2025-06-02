@@ -20,87 +20,101 @@ function Tools() {
     return (
         <>
             <ScrollAnimation animation="fadeInUp" delay={500}>
-                <h1>.. curated with the following tools</h1>
+                <h1>Tools & technologies</h1>
                 <br/>
                 </ScrollAnimation> 
 
                 <ScrollAnimation animation="fadeInUp" delay={1000}>                    
                     <h2>Graphic design</h2>
                 </ScrollAnimation>
+                
                         <div className='logo-container-gd'>
+                        
+                        <ScrollAnimation animation="fadeIn" delay={1200}>
                             <div className='logo'>
                                 <img src={adobe} alt='logo' />
                                 <p>Adobe Creative Cloud</p>
-                            </div>
+                            </div></ScrollAnimation>
 
+                    <ScrollAnimation animation="fadeIn" delay={1400}>
                         <div className='logo'>
                             <img src={illustrator} alt='logo' />
                             <p>Adobe Illustrator</p>
-                        </div>
+                        </div> </ScrollAnimation>
 
+                        <ScrollAnimation animation="fadeIn" delay={1600}>   
                         <div className='logo'>
                             <img src={aftereffects} alt='logo' />
                             <p>Adobe After Effects</p>
-                        </div>
+                        </div> </ScrollAnimation>
 
+                        <ScrollAnimation animation="fadeIn" delay={1800}>  
                         <div className='logo'>
                             <img src={photoshop} alt='logo' />
                             <p>Adobe Photoshop</p>
-                        </div>
+                        </div> </ScrollAnimation>
+                    
                     </div>
 
-            <ScrollAnimation animation="fadeInUp" delay={1200}>
+            <ScrollAnimation animation="fadeInUp" delay={2000}>
                 <h2>Front-end</h2>
             </ScrollAnimation>
                     <div className='logo-container-fe'>
 
+                    <ScrollAnimation animation="fadeInUp" delay={2200}>
                         <div className='logo'>
                             <img src={reactjs} alt='logo' />
                             <p>React.js</p>
-                        </div>
+                        </div> </ScrollAnimation>
 
+                    <ScrollAnimation animation="fadeInUp" delay={2400}>
                         <div className='logo'>
                             <img src={javascript} alt='logo' />
                             <p>JavaScript</p>
-                        </div>
+                        </div> </ScrollAnimation>
 
                         {/* <div className='logo'>
                             <img src={typescript} alt='logo' />
                             <p>TypeScript</p>
                         </div> */}
 
+                    <ScrollAnimation animation="fadeInUp" delay={2600}>
                         <div className='logo'>
                             <img src={css3} alt='logo' />
                             <p>CSS 3</p>
-                        </div>
+                        </div> </ScrollAnimation>
 
+                    <ScrollAnimation animation="fadeInUp" delay={2800}>
                         <div className='logo'>
                             <img src={html5} alt='logo' />
                             <p>HTML 5</p>
-                        </div>
+                        </div> </ScrollAnimation>
 
+                    <ScrollAnimation animation="fadeInUp" delay={3000}>
                         <div className='logo'>
                             <img src={git} alt='logo' />
                             <p>Git</p>
-                        </div>
+                        </div> </ScrollAnimation>
 
                     </div>
                 <br />
 
-            <ScrollAnimation animation="fadeInUp" delay={1400}>  
+            <ScrollAnimation animation="fadeInUp" delay={3200}>  
                 <h2>Back-end</h2>
             </ScrollAnimation>
                     <div className='logo-container-be'>
 
+                    <ScrollAnimation animation="fadeInUp" delay={3400}>
                         <div className='logo'>
                             <img src={nodejs} alt='logo' />
                             <p>Node.js</p>
-                        </div>
+                        </div> </ScrollAnimation>
 
+                    <ScrollAnimation animation="fadeInUp" delay={3600}>
                         <div className='logo'>
                             <img src={pgsql} alt='logo' />
                             <p>PostgreSQL</p>
-                        </div>
+                        </div> </ScrollAnimation>
 
                     </div>
         </>

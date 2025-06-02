@@ -20,7 +20,7 @@ function PortfolioPage() {
         {
             id: 2,
             title: 'Smart Brain',
-            description: 'A full-stack face detection app built with React, Node.js, Express, and PostgreSQL. Users can register, sign in, and submit image URLs to detect faces and corresponding sentiments using the Clarifai API. Includes a working backend, user authentication, and database integration. For this variant, React classes and tachyons were used',
+            description: 'A full-stack face detection app built with React (classes), Node.js, Express, and PostgreSQL. Users can register, sign in, and submit image URLs to detect faces and corresponding sentiments using the Clarifai API. Includes a working backend, user authentication, and database integration. For this variant, React classes and tachyons were used',
             image: thumbnail2,
             link1: 'https://smart-brain-k79y.onrender.com/',
             link2: 'https://github.com/sznsgthb/smart-brain'
@@ -28,7 +28,7 @@ function PortfolioPage() {
         {
             id: 3,
             title: 'Extinct Animals',
-            description: 'An educational web app that fetches data from an external API to showcase extinct animals. It features a visually engaging timeline and an interactive world map pinpointing where each species was last observed. Built with a React frontend and Node.js to retrieve the coordinates',
+            description: 'An educational web app that fetches data from an external API to showcase extinct animals. It features a visually engaging timeline and an interactive world map pinpointing where each species was last observed. Built with a React (hooks) frontend and Node.js to retrieve the coordinates',
             image: thumbnail3,
             link1: 'https://extinct-animals.onrender.com/',
             link2: 'https://github.com/sznsgthb/extinct-animals'
@@ -36,7 +36,7 @@ function PortfolioPage() {
         {
             id: 4,
             title: 'Robo Friends',
-            description: 'A simple, scrollable React interface that generates a lineup of some cool looking robots from an external API. Includes a live search bar to help you find your favorite bot with ease.',
+            description: 'A simple, scrollable React (hooks) interface that generates a lineup of some cool looking robots from an external API. Includes a live search bar to help you find your favorite bot with ease.',
             image: thumbnail4,
             link1: 'https://sznsgthb.github.io/robofriends/',
             link2: 'https://github.com/sznsgthb/robofriends'
@@ -45,8 +45,8 @@ function PortfolioPage() {
 
     return (
         <>
-            <ScrollAnimation animation="fadeInUp" delay={500}>
-                <h1>Here you'll find my recent creations</h1>
+            <ScrollAnimation animation="fadeInUp" delay={1000}>
+                <h1>Projects</h1>
             </ScrollAnimation>
 
             
@@ -55,7 +55,7 @@ function PortfolioPage() {
                   <ScrollAnimation
                   key={project.id}
                   animation="fadeInUp"
-                  delay={index === 0 ? 1000 : 200}
+                  delay={index === 0 ? 1500 : 400}
                 >
                 <div className="project-section">
                     <div
@@ -90,13 +90,13 @@ function PortfolioPage() {
                                     <h3>Source code</h3>
                                     </a>
                                 )}
-                                                                {project.link1 && (
-                                    <a
-                                    href={project.link1}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="source-button"
-                                    >
+                                    {project.link1 && (
+                                        <a
+                                        href={project.link1}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="source-button"
+                                        >
                                     <h3>View in full</h3>
                                     </a>
                                 )}

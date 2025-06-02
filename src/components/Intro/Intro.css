@@ -1,8 +1,15 @@
-.container-header {
+.container-h1 {
     display: flex;
     align-items: center;
-    justify-content: center;/* vertically centers if needed */
+    justify-content: center;
     gap: 0.7rem;
-    margin-bottom: 1rem; /* optional space between the two headers */
+    margin-bottom: 2rem; 
   }
   
+  .container-h2 {
+    margin-bottom: 2rem; 
+  }
+
+  .container-h2 h2 {
+    line-height: 2;
+  }

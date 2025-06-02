@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../containers/App.css';
+import ScrollAnimation from '../../containers/ScrollAnimation';
 import './About.css'
 import profilepicture from '/images/profile-picture-01.png';
 
@@ -8,18 +9,31 @@ function About() {
         <>
             <div className='container'>
                 <div className='introduction'>
-                    <h1>A bit about me... </h1>
+                    <ScrollAnimation animation="fadeInUp" delay={500}>                   
+                        <h1>A bit about me... </h1>
+                    </ScrollAnimation>
+
+                    <ScrollAnimation animation="fadeInUp" delay={1000}>               
                         <p>... </p>
                         <br />
-                        <h1>Just for fun </h1>
-                        <p>...</p>
                         <br />
+                    </ScrollAnimation>
+                    
+                    <ScrollAnimation animation="fadeInUp" delay={1500}>
                         <h1>Journey </h1>
-                        <p>Click [here] to see a timeline of my education and career journey. </p>
+                    </ScrollAnimation>
+
+                    <ScrollAnimation animation="fadeInUp" delay={2000}>
+                        <p>... </p>
+                        {/* <p>Click [here] to see a timeline of my education and career journey. </p> */}
+                    </ScrollAnimation>
+                        
                 </div>
-                <div className='picture'>
-                    <img src={profilepicture} alt='picture' />
-                </div>
+                <ScrollAnimation animation="fadeIn" delay={1000}>
+                    <div className='picture'>
+                        <img src={profilepicture} alt='picture' />
+                    </div>
+                </ScrollAnimation>
             </div>
         </>
     );

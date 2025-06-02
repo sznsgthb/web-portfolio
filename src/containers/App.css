@@ -54,16 +54,12 @@ body {
   }
 
  .container-welcome {
-    text-align: left;
-    padding-left: 250px;
-    padding-top: 175px;
+    padding-top: 250px;
     z-index: 10;
   }
 
   .container-unfold {
-    text-align: left;
-    padding-left: 300px;
-    padding-top: 250px;
+    padding-top: 350px;
     z-index: 10;
   }
 
@@ -74,12 +70,12 @@ body {
       visibility: hidden;
     }
     25% {
-      opacity: 1;
+      opacity: 0.8;
       transform: translateY(0);
       visibility: visible;
     }
     75% {
-      opacity: 1;
+      opacity: 0.8;
       transform: translateY(0);
       visibility: visible;
     }
@@ -130,63 +126,108 @@ body {
   }
   
   #background {
-    background-image: url(/images/parallax/final-background-02.png);
-    height: 125vh; /* Set custom height */
-    position: absolute; /* Use absolute instead of fixed */
-    top: 0;
-    z-index: 0;
-  }
-  
-  #background.animation_layer.parallax {
-    position: absolute !important;
+    background-image: url(/images/parallax/background.svg);
   }
 
-  #clouds {
-    background-image: url(/images/parallax/clouds.png);
+  #moon {
+    background-image: url(/images/parallax/moon.svg);
+  }
+
+  /* #birds {
+    background-image: url(/images/parallax/birds.svg);
+  } */
+  
+#cloud3 {
+    background-image: url(/images/parallax/cloud3.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: driftCloud3 300s linear infinite;
+    position: absolute;
   }
   
-  #mountain6 {
-    background-image: url(/images/parallax/mountain-6.png);
-  }
+#cloud2 {
+    background-image: url(/images/parallax/cloud2.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: driftCloud2 300s linear infinite;
+    position: absolute;
+}
   
-  #mountain5 {
-    background-image: url(/images/parallax/mountain-5.png);
-  }
-  
-  #mountain4 {
-    background-image: url(/images/parallax/mountain-4.png);
-  }
-  
-  #mountain3 {
-    background-image: url(/images/parallax/mountain-3.png);
+#cloud1 {
+    background-image: url(/images/parallax/cloud1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: driftCloud1 400s linear infinite;
+    position: absolute;
   }
   
   #mountain2 {
-    background-image: url(/images/parallax/mountain-2.png);
-    bottom: -5.1vh;
+    background-image: url(/images/parallax/mountain2.svg);
   }
   
-  #cliffs {
-    background-image: url(/images/parallax/cliffs.png);
-    bottom: -40vh;
+  #mountain1 {
+    background-image: url(/images/parallax/mountain1.svg);
   }
   
-  #trees {
-    background-image: url(/images/parallax/trees.png);
-    bottom: -40vh;
+  #trees5 {
+    background-image: url(/images/parallax/trees5.svg);
+    bottom: -5vh;
   }
 
-  #land2 {
-    background-image: url(/images/parallax/land-2.png);
-    bottom: -91vh;
+  #trees4 {
+    background-image: url(/images/parallax/trees4.svg);
+    bottom: -10vh;
+  }
+  
+  #trees3 {
+    background-image: url(/images/parallax/trees3.svg);
+    bottom: -18vh;
   }
 
-  #land1 {
-    background-image: url(/images/parallax/land-1.png);
-    bottom: -97vh;
+  #trees2 {
+    background-image: url(/images/parallax/trees2.svg);
+    bottom: -25vh;
   }
 
-  #rocks {
-    background-image: url(/images/parallax/rocks-front.png);
-    bottom: -83vh;
+  #trees1 {
+    background-image: url(/images/parallax/trees1.svg);
+    bottom: -33vh;
+  }
+
+  #land {
+    background-image: url(/images/parallax/land.svg);
+    bottom: -95vh;
+  }
+
+  @keyframes driftCloud1 {
+    0% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(120vw); 
+      opacity: 1;
+    }
+  }
+  
+  @keyframes driftCloud2 {
+    0% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(140vw);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes driftCloud3 {
+    0% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(130vw);
+      opacity: 1;
+    }
   }

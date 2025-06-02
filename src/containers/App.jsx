@@ -27,63 +27,75 @@ function App() {
                             <div className='animation_layer parallax' id='background'></div>
                         </ParallaxLayer>
 
-                        <ParallaxLayer offset={0} speed={0.25}>
+                        <ParallaxLayer offset={0} speed={-0.20}>
                             <div className='container-welcome'>
                                 <h1 className='text-welcome'>Welcome</h1>
                             </div>
                             </ParallaxLayer>
 
-                        <ParallaxLayer offset={0} speed={0.25}>
+                        <ParallaxLayer offset={0} speed={-0.20}>
                             <div className='container-unfold'>
-                                <h1 className='text-unfold'>.. scroll to explore</h1>
+                                <h1 className='text-unfold'>scroll to read on..</h1>
                             </div>
                         </ParallaxLayer>
 
-                        <ParallaxLayer offset={0} speed={0.3}>
-                            <div className='animation_layer parallax' id='clouds'></div>
+                        <ParallaxLayer offset={0} speed={0}>
+                            <div className='animation_layer parallax' id='moon'></div>
                         </ParallaxLayer>
 
-                        <ParallaxLayer offset={0} speed={0.32}>
-                            <div className='animation_layer parallax' id='mountain6'></div>
+                        {/* <ParallaxLayer offset={0} speed={0.3}>
+                            <div className='animation_layer parallax' id='birds'></div>
+                        </ParallaxLayer> */}
+
+                        <ParallaxLayer offset={0} speed={0.05}>
+                            <div className='animation_layer parallax' id='cloud1'></div>
                         </ParallaxLayer>
 
-                        <ParallaxLayer offset={0} speed={0.35}>
-                            <div className='animation_layer parallax' id='mountain5'></div>
+                        <ParallaxLayer offset={0} speed={0.05}>
+                            <div className='animation_layer parallax' id='cloud2'></div>
                         </ParallaxLayer>
 
-                        <ParallaxLayer offset={0} speed={0.40}>
-                            <div className='animation_layer parallax' id='mountain4'></div>
+                        <ParallaxLayer offset={0} speed={0.10}>
+                            <div className='animation_layer parallax' id='cloud3'></div>
                         </ParallaxLayer>
 
-                        <ParallaxLayer offset={0} speed={0.41}>
-                            <div className='animation_layer parallax' id='mountain3'></div>
-                        </ParallaxLayer>
-
-                        <ParallaxLayer offset={0} speed={0.43}>
+                        <ParallaxLayer offset={0} speed={0.00}>
                             <div className='animation_layer parallax' id='mountain2'></div>
                         </ParallaxLayer>
 
-                        <ParallaxLayer offset={0} speed={0.45}>
-                            <div className='animation_layer parallax' id='cliffs'></div>
+                        <ParallaxLayer offset={0} speed={0.02}>
+                            <div className='animation_layer parallax' id='mountain1'></div>
                         </ParallaxLayer>
 
-                        <ParallaxLayer offset={0} speed={0.54}>
-                            <div className='animation_layer parallax' id='trees'></div>
+                        <ParallaxLayer offset={0} speed={0}>
+                            <div className='animation_layer parallax' id='trees5'></div>
                         </ParallaxLayer>
 
-                        <ParallaxLayer offset={0} speed={0.59}>
-                            <div className='animation_layer parallax' id='land2'></div>
+                        <ParallaxLayer offset={0} speed={0.08}>
+                            <div className='animation_layer parallax' id='trees4'></div>
                         </ParallaxLayer>
 
-                        <ParallaxLayer offset={0} speed={0.67}>
-                            <div className='animation_layer parallax' id='land1'></div>
+                        <ParallaxLayer offset={0} speed={0.20}>
+                            <div className='animation_layer parallax' id='trees3'></div>
                         </ParallaxLayer>
 
-                        <ParallaxLayer offset={0} speed={0.73}>
-                            <div className='animation_layer parallax' id='rocks'></div>
+                        <ParallaxLayer offset={0} speed={0.30}>
+                            <div className='animation_layer parallax' id='trees2'></div>
                         </ParallaxLayer>
 
-                        <ParallaxLayer offset={1.2} speed={0.50}>
+                        <ParallaxLayer offset={0} speed={0.50}>
+                            <div className='animation_layer parallax' id='trees1'></div>
+                        </ParallaxLayer>
+
+                        <ParallaxLayer offset={0} speed={0.80}>
+                            <div className='animation_layer parallax' id='land'></div>
+                        </ParallaxLayer>
+
+                        {/* <ParallaxLayer offset={0} speed={0.73}>
+                            <div className='animation_layer parallax' id='shine'></div>
+                        </ParallaxLayer> */}
+
+                        <ParallaxLayer offset={1.1} speed={0.50}>
                             <Intro />
                         </ParallaxLayer>
 
@@ -91,7 +103,7 @@ function App() {
                             <PortfolioPage />
                         </ParallaxLayer>
 
-                        <ParallaxLayer offset={4.8} speed={0.50}>
+                        <ParallaxLayer offset={4.7} speed={0.50}>
                             <Tools />
                         </ParallaxLayer>
 
