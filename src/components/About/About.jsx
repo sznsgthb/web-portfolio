@@ -10,7 +10,7 @@ function About() {
             <div className='container'>
                 <div className='introduction'>
                     <ScrollAnimation animation="fadeInUp" delay={1000}>                   
-                        <h1>A bit about me... </h1>
+                        <h1>A bit about me.. </h1>
                     </ScrollAnimation>
 
                     <ScrollAnimation animation="fadeInUp" delay={1500}>               

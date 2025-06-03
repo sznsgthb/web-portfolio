@@ -24,11 +24,11 @@
   }
   
   .project-content.normal {
-    flex-direction: row; /* Image left, text right */
+    flex-direction: row; 
   }
   
   .project-content.reversed {
-    flex-direction: row-reverse; /* Image right, text left */
+    flex-direction: row-reverse; 
   }
   
   .project-image {
@@ -58,7 +58,7 @@
 }
 
 .source-button:hover {
-  background-color: #eaaf7f; /* slightly lighter on hover */
+  background-color: #eaaf7f;
 }
 
 .full-view-button {
@@ -77,5 +77,5 @@
   }
 
   .full-view-button:hover {
-    background-color: #eaaf7f; /* slightly lighter on hover */
+    background-color: #eaaf7f; 
   }

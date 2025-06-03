@@ -20,7 +20,7 @@ function PortfolioPage() {
         {
             id: 2,
             title: 'Smart Brain',
-            description: 'A full-stack face detection app built with React (classes), Node.js, Express, and PostgreSQL. Users can register, sign in, and submit image URLs to detect faces and corresponding sentiments using the Clarifai API. Includes a working backend, user authentication, and database integration. For this variant, React classes and tachyons were used',
+            description: 'A full-stack face detection app built with React, Node.js, Express, and PostgreSQL. Users can register, sign in, and submit image URLs to detect faces and corresponding sentiments using the Clarifai API. Includes a working backend, user authentication, and database integration. For this variant, React classes and tachyons were used.',
             image: thumbnail2,
             link1: 'https://smart-brain-k79y.onrender.com/',
             link2: 'https://github.com/sznsgthb/smart-brain'
@@ -28,7 +28,7 @@ function PortfolioPage() {
         {
             id: 3,
             title: 'Extinct Animals',
-            description: 'An educational web app that fetches data from an external API to showcase extinct animals. It features a visually engaging timeline and an interactive world map pinpointing where each species was last observed. Built with a React (hooks) frontend and Node.js to retrieve the coordinates',
+            description: 'An educational web app that fetches data from an external API to showcase extinct animals. It features a visually engaging timeline and an interactive world map pinpointing where each species was last observed. Built with a React (hooks) frontend and Node.js to retrieve the coordinate.',
             image: thumbnail3,
             link1: 'https://extinct-animals.onrender.com/',
             link2: 'https://github.com/sznsgthb/extinct-animals'
@@ -36,7 +36,7 @@ function PortfolioPage() {
         {
             id: 4,
             title: 'Robo Friends',
-            description: 'A simple, scrollable React (hooks) interface that generates a lineup of some cool looking robots from an external API. Includes a live search bar to help you find your favorite bot with ease.',
+            description: 'A simple, scrollable React (hooks) interface that generates a lineup of some awesome looking robots from an external API. Includes a live search bar to help you find your favorite bot with ease.',
             image: thumbnail4,
             link1: 'https://sznsgthb.github.io/robofriends/',
             link2: 'https://github.com/sznsgthb/robofriends'
