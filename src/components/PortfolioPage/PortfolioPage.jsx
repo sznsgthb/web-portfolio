@@ -28,7 +28,7 @@ function PortfolioPage() {
         {
             id: 3,
             title: 'Extinct Animals',
-            description: 'An educational web app that fetches data from an external API to showcase extinct animals. It features a visually engaging timeline and an interactive world map pinpointing where each species was last observed. Built with a React (hooks) frontend and Node.js to retrieve the coordinate.',
+            description: 'An educational web app that fetches data from an external API to showcase extinct animals. It features a visually engaging timeline and an interactive world map pinpointing where each species was last observed. Built with a React (hooks) frontend and Node.js to retrieve the coordinates.',
             image: thumbnail3,
             link1: 'https://extinct-animals.onrender.com/',
             link2: 'https://github.com/sznsgthb/extinct-animals'
@@ -45,7 +45,7 @@ function PortfolioPage() {
 
     return (
         <>
-            <ScrollAnimation animation="fadeInUp" delay={1000}>
+            <ScrollAnimation animation="fadeInUp" delay={500}>
                 <h1>Projects</h1>
             </ScrollAnimation>
 

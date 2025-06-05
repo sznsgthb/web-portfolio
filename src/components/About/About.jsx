@@ -9,11 +9,11 @@ function About() {
         <>
             <div className='container'>
                 <div className='introduction'>
-                    <ScrollAnimation animation="fadeInUp" delay={1000}>                   
+                    <ScrollAnimation animation="fadeInUp" delay={500}>                   
                         <h1>A bit about me.. </h1>
                     </ScrollAnimation>
 
-                    <ScrollAnimation animation="fadeInUp" delay={1500}>               
+                    <ScrollAnimation animation="fadeInUp" delay={1000}>               
                         <p>... </p>
                         <br />
                         <br />
