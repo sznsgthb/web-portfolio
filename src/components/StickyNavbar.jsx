@@ -38,7 +38,7 @@ function StickyNavbar({ scrollToPage }) {
           </Typography>
           <Typography as='li' variant='small' className='p-1 font-normal'>
             <span onClick={() => scrollToPage(5.4)} className='flex items-center cursor-pointer'>
-              About me
+              About
             </span>
           </Typography>
           <Typography as='li' variant='small' className='p-1 font-normal'>
@@ -64,21 +64,6 @@ function StickyNavbar({ scrollToPage }) {
                      <div className='flex items-center gap-4'>
                         <div className='mr-4 hidden lg:block'>{navList}</div>
                         <div className='flex items-center gap-x-1'>
-                            {/* <Button
-                                variant='text'
-                                size='sm'
-                                className='hidden lg:inline-block'
-                            >
-                                <span>Log In</span>
-                            </Button>
-
-                            <Button
-                                variant='gradient'
-                                size='sm'
-                                className='hidden lg:inline-block'
-                            >
-                                <span>Sign in</span>
-                            </Button> */}
                         </div>
 
                     <IconButton
@@ -123,15 +108,6 @@ function StickyNavbar({ scrollToPage }) {
             </div>
                 <Collapse open={openNav}>
                      {navList}
-                        <div className='flex items-center gap-x-1'>
-                            <Button fullWidth variant='text' size='sm' className=''>
-                                <span>Log In</span>
-                            </Button>
-
-                            <Button fullWidth variant='gradient' size='sm' className=''>
-                                <span>Sign in</span>
-                            </Button>
-                        </div>
                 </Collapse>
             </Navbar>
         </div>

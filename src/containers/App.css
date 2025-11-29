@@ -54,12 +54,12 @@ body {
   }
 
  .container-welcome {
-    padding-top: 250px;
+    padding-top: 400px;
     z-index: 10;
   }
 
   .container-unfold {
-    padding-top: 350px;
+    padding-top: 500px;
     z-index: 10;
   }
 
@@ -129,13 +129,18 @@ body {
     background-image: url(/images/parallax/background.svg);
   }
 
-  #moon {
-    background-image: url(/images/parallax/moon.svg);
+  #stars {
+    background-image: url(/images/parallax/stars.svg);
+    opacity: 0.5;
   }
 
-  /* #birds {
-    background-image: url(/images/parallax/birds.svg);
-  } */
+  #greenlight {
+    background-image: url(/images/parallax/greenlight.svg);
+  }
+
+  #bluelight {
+    background-image: url(/images/parallax/bluelight.svg);
+  }
   
 #cloud3 {
     background-image: url(/images/parallax/cloud3.svg);
@@ -143,6 +148,7 @@ body {
     background-size: contain;
     animation: driftCloud3 300s linear infinite;
     position: absolute;
+    z-index: 5;
   }
   
 #cloud2 {
@@ -151,6 +157,7 @@ body {
     background-size: contain;
     animation: driftCloud2 300s linear infinite;
     position: absolute;
+    z-index: 5;
 }
   
 #cloud1 {
@@ -161,42 +168,31 @@ body {
     position: absolute;
   }
   
-  #mountain2 {
-    background-image: url(/images/parallax/mountain2.svg);
-  }
-  
-  #mountain1 {
-    background-image: url(/images/parallax/mountain1.svg);
-  }
-  
-  #trees5 {
-    background-image: url(/images/parallax/trees5.svg);
-    bottom: -5vh;
-  }
 
   #trees4 {
     background-image: url(/images/parallax/trees4.svg);
-    bottom: -10vh;
+    bottom: -5vh;
+    opacity: 0.5;
   }
   
   #trees3 {
     background-image: url(/images/parallax/trees3.svg);
-    bottom: -18vh;
+    bottom: -15vh;
   }
 
   #trees2 {
     background-image: url(/images/parallax/trees2.svg);
-    bottom: -25vh;
+    bottom: -20vh;
   }
 
   #trees1 {
     background-image: url(/images/parallax/trees1.svg);
-    bottom: -33vh;
+    bottom: -28vh;
   }
 
   #land {
     background-image: url(/images/parallax/land.svg);
-    bottom: -95vh;
+    bottom: -110vh;
   }
 
   @keyframes driftCloud1 {
