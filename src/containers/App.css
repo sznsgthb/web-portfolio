@@ -127,6 +127,7 @@ body {
   
   #background {
     background-image: url(/images/parallax/background.svg);
+    top: -4vh;
   }
 
   #stars {
@@ -140,6 +141,7 @@ body {
 
   #bluelight {
     background-image: url(/images/parallax/bluelight.svg);
+    bottom: 0vh;
   }
   
 #cloud3 {

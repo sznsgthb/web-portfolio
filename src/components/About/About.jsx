@@ -15,15 +15,15 @@ function About() {
 
                     <ScrollAnimation animation="fadeInUp" delay={2000}>               
                         <p>While pursuing my fascination for the human mind in higher education, I studied the intersection of how our minds interact with digital solutions.
-                                For years, I have crafted digital interventions with great pleasure, combining psychological insight and graphic design, including active ingredients designed to stimulate behavioural change and improve health behaviours in clients with mental health conditions or lifestyle challenges.
+                                For years, I have crafted digital interventions with great pleasure, combining psychological insight, graphic design and active ingredients designed to stimulate behavioural change and improve health behaviours in clients with mental health conditions or lifestyle challenges.
                         </p>
                         <br />
                     </ScrollAnimation>
 
                     <ScrollAnimation animation="fadeInUp" delay={2750}>               
                         <p>Yet, limited by my inability to create new functionalities myself, it didn't take long before I took an interest in how programming actually works.
-                                Having the ability to design and build the technology was exactly what I was after. Not to mention the limitless amount of creativity I knew I would be able to pour into it! A fire was sparked immediately.
-                                Through courses and the help of my colleagues, I learned the ropes of full-stack web development. Now, the rest is history.
+                                Having the ability to design and build the technology was exactly what I was after. Not to mention the limitless amount of creativity I knew I would be able to pour into it! It sparked a fire immediately.
+                                Through courses and guidance from experienced colleagues, I learned the ropes of full-stack web development, with focus on the front-end. Now, the rest is history.
                         </p>
                         <br />
                     </ScrollAnimation>
