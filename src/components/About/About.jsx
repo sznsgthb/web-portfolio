@@ -22,8 +22,8 @@ function About() {
 
                     <ScrollAnimation animation="fadeInUp" delay={2750}>               
                         <p>Yet, limited by my inability to create new functionalities myself, it didn't take long before I took an interest in how programming actually works.
-                                Having the ability to design and build technology was exactly what I was after. Not to mention the limitless amount of creativity I knew I would be able to pour into it!
-                                Through courses and the help of my colleagues, I learned the ropes of full-stack webdevelopment. Now, the rest is history.
+                                Having the ability to design and build the technology was exactly what I was after. Not to mention the limitless amount of creativity I knew I would be able to pour into it! A fire was sparked immediately.
+                                Through courses and the help of my colleagues, I learned the ropes of full-stack web development. Now, the rest is history.
                         </p>
                         <br />
                     </ScrollAnimation>
