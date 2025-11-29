@@ -22,17 +22,18 @@ function About() {
 
                     <ScrollAnimation animation="fadeInUp" delay={2750}>               
                         <p>Yet, limited by my inability to create new functionalities myself, it didn't take long before I took an interest in how programming actually works.
-                                Having the ability to design and build the technology was exactly what I was after. Not to mention the limitless amount of creativity I knew I would be able to pour into it! It sparked a fire immediately.
-                                Through courses and guidance from experienced colleagues, I learned the ropes of full-stack web development, with focus on the front-end. Now, the rest is history.
+                                Being able to design and build the technology was exactly what I was after. Not to mention the limitless amount of creativity I knew I would be able to pour into it! It sparked a fire immediately.
+                                Through courses and guidance from experienced colleagues, I learned the ropes of full-stack web development, with special focus on the front-end.
                         </p>
+                        <p>This portfolio reflects my first steps into the world of programming, with many more to come.</p>
                         <br />
                     </ScrollAnimation>
 
                     <ScrollAnimation animation="fadeInUp" delay={3500}>               
-                        <p>My journey has been far from linear, but it has always been driven by curiosity, a love for learning, and a desire to expand my horizons.
+                        <p>My journey has been far from linear, but always been driven by curiosity, a love for learning, and a desire to expand my horizons.
                             I pride myself on always being ready to adapt to the changing tides of life,
                             fast-paced developments in the world,
-                            my evolving interests and values, and every challenge or obstacle that comes my way.</p>
+                            ever-evolving interests and values, and every challenge or obstacle that comes my way.</p>
                     </ScrollAnimation>
                         
                 </div>
