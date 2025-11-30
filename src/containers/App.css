@@ -93,7 +93,7 @@ body {
     visibility: hidden;
     display: inline-block;
     animation: fadeInPauseFadeOut 5s ease forwards;
-    animation-delay: 3s;
+    animation-delay: 2s;
   }
   
   .text-unfold {
@@ -103,7 +103,7 @@ body {
     visibility: hidden;
     display: inline-block;
     animation: fadeInPauseFadeOut 5s ease forwards;
-    animation-delay: 10s;
+    animation-delay: 8s;
   }
  
   .animation, .animation_layer {
