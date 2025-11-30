@@ -99,7 +99,7 @@ function App() {
                             <Tools />
                         </ParallaxLayer>
 
-                        <ParallaxLayer offset={5.8} speed={0.50}>
+                        <ParallaxLayer offset={5.73} speed={0.50}>
                             <About />
                         </ParallaxLayer>
 

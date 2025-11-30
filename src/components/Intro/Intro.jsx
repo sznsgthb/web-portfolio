@@ -35,8 +35,6 @@ function Intro() {
                             <p>On this page, you'll find a selection of the projects I've been working on.</p>
                                 <br />
                             <p>Happy browsing!</p>
-
-                            {/* <p>behaviour change/educate/etc. all knowledge from experience and studies. paint a whole picture of who you are until now!</p> */}
                         </div>
                     </ScrollAnimation>
                 </div>
