@@ -33,7 +33,7 @@ function About() {
                         <p>My journey has been far from linear, but always driven by curiosity, a love for learning, and a desire to expand my horizons.
                             I pride myself on always being ready to adapt to the changing tides of life,
                             fast-paced developments in the world,
-                            my ever-evolving interests and values, and every hallenge or obstacle that comes my way.</p>
+                            my ever-evolving interests and values, and every challenge or obstacle that comes my way.</p>
                     </ScrollAnimation>
                         
                 </div>
