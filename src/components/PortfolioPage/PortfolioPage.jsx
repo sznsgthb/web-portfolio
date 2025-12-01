@@ -11,14 +11,6 @@ function PortfolioPage() {
     const projects = [
         {
             id: 1,
-            title: 'Autumn Leaves',
-            description: 'A gentle cascade of colorful leaves floats to the ground in this short CSS animation, collecting into a soft autumn pile.',
-            image: thumbnail1,
-            link1: 'https://sznsgthb.github.io/autumn-leaves/',
-            link2: 'https://github.com/sznsgthb/autumn-leaves'
-        },
-        {
-            id: 2,
             title: 'Smart Brain',
             description: 'A full-stack face detection app built with React, Node.js, Express, and PostgreSQL. Users can register, sign in, and submit image URLs to detect faces and corresponding sentiments using the Clarifai API. Includes a working backend, user authentication, and database integration. For this variant, React classes and tachyons were used.',
             image: thumbnail2,
@@ -26,7 +18,7 @@ function PortfolioPage() {
             link2: 'https://github.com/sznsgthb/smart-brain'
         },
         {
-            id: 3,
+            id: 2,
             title: 'Extinct Animals',
             description: 'An educational web app that fetches data from an external API to showcase extinct animals. It features a visually engaging timeline and an interactive world map pinpointing where each species was last observed. Built with a React (hooks) frontend and Node.js to retrieve the coordinates.',
             image: thumbnail3,
@@ -34,12 +26,20 @@ function PortfolioPage() {
             link2: 'https://github.com/sznsgthb/extinct-animals'
         },
         {
-            id: 4,
+            id: 3,
             title: 'Robo Friends',
-            description: 'A simple, scrollable React (hooks) interface that generates a lineup of some awesome looking robots from an external API. Includes a live search bar to help you find your favorite bot with ease.',
+            description: 'A simple, scrollable React (classes) interface that generates a lineup of some awesome looking robots from an external API. Includes a live search bar to help you find your favorite bot with ease.',
             image: thumbnail4,
             link1: 'https://sznsgthb.github.io/robofriends/',
             link2: 'https://github.com/sznsgthb/robofriends'
+        },
+        {
+            id: 4,
+            title: 'Autumn Leaves',
+            description: 'A gentle cascade of colorful leaves floats to the ground in this short CSS animation, collecting into a soft autumn pile.',
+            image: thumbnail1,
+            link1: 'https://sznsgthb.github.io/autumn-leaves/',
+            link2: 'https://github.com/sznsgthb/autumn-leaves'
         },
       ];
 
