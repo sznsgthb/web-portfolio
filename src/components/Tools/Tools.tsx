@@ -1,5 +1,5 @@
 import React from 'react';
-import ScrollAnimation from '../../containers/ScrollAnimation';
+import ScrollAnimation from '../../containers/ScrollAnimation.js';
 import './Tools.css';
 import html5 from '/images/logos/html-logo.svg';
 import css3 from '/images/logos/css-logo.svg';
@@ -18,9 +18,9 @@ import nodejs from '/images/logos/node-logo.svg';
 
 function Tools() {
     return (
-        <>
+        <div>
             <ScrollAnimation animation="fadeInUp" delay={500}>
-                <h1>Tools & technologies</h1>
+                <h1 className="h1-tools">Tools & technologies</h1>
                 <br/>
                 </ScrollAnimation> 
 
@@ -118,7 +118,7 @@ function Tools() {
                         </div> </ScrollAnimation>
 
                     </div>
-        </>
+        </div>
     );
   }
   

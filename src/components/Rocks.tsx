@@ -1,0 +1,99 @@
+import React from 'react';
+import './ParallaxPage/ParallaxPage.css';
+
+function Rocks() {
+
+
+    return(
+                <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1220.66" className="rocks-wrapper">
+        <defs>
+            <linearGradient id="linear-gradient-1" x1="1794.15" y1="1028.26" x2="1794.15" y2="949.32" gradientTransform="translate(-11.62 -71.92) rotate(2.53)" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#e99e7b"/>
+                <stop offset=".69" stop-color="#765751"/>
+                <stop offset="1" stop-color="#473b40"/>
+            </linearGradient>
+            <linearGradient id="linear-gradient-2" x1="1792.36" y1="1119" x2="1792.36" y2="932.72" xlinkHref="#linear-gradient"/>
+            <linearGradient id="Naamloos_verloop_4015" data-name="Naamloos verloop 4015" x1="1788.82" y1="1034.54" x2="1858.48" y2="819.85" gradientTransform="translate(-11.62 -71.92) rotate(2.53)" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#e99e7b"/>
+                <stop offset=".06" stop-color="#c4876d"/>
+                <stop offset=".13" stop-color="#a37361"/>
+                <stop offset=".21" stop-color="#866157"/>
+                <stop offset=".29" stop-color="#6f534e"/>
+                <stop offset=".39" stop-color="#5d4848"/>
+                <stop offset=".5" stop-color="#504043"/>
+                <stop offset=".66" stop-color="#493c40"/>
+                <stop offset="1" stop-color="#473b40"/>
+            </linearGradient>
+            <linearGradient id="linear-gradient-3" x1="1813.76" y1="1075.62" x2="1811.8" y2="955.85" xlinkHref="#linear-gradient"/>
+            <linearGradient id="Naamloos_verloop_746" data-name="Naamloos verloop 746" x1="1702.28" y1="958.11" x2="2095.32" y2="958.11" gradientTransform="translate(-11.62 -71.92) rotate(2.53)" gradientUnits="userSpaceOnUse">
+                <stop offset=".01" stop-color="#f2ba83"/>
+                <stop offset=".45" stop-color="#cb896b"/>
+                <stop offset=".47" stop-color="#c28265"/>
+                <stop offset=".55" stop-color="#a76d56"/>
+                <stop offset=".63" stop-color="#925d4a"/>
+                <stop offset=".72" stop-color="#845241"/>
+                <stop offset=".83" stop-color="#7b4c3c"/>
+                <stop offset="1" stop-color="#794a3b"/>
+            </linearGradient>
+            <linearGradient id="Naamloos_verloop_3803-1" data-name="Naamloos verloop 3803" x1="2005.01" y1="1149.84" x2="2005.01" y2="771.86" gradientTransform="translate(-209.22 220.74) rotate(-1.08) scale(1.02 .99) skewX(-15.16)" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#ffad87"/>
+                <stop offset=".09" stop-color="#e69d7d"/>
+                <stop offset=".32" stop-color="#ae7a67"/>
+                <stop offset=".54" stop-color="#815f56"/>
+                <stop offset=".73" stop-color="#614b4a"/>
+                <stop offset=".89" stop-color="#4e3f42"/>
+                <stop offset="1" stop-color="#473b40"/>
+            </linearGradient>
+            <linearGradient id="Naamloos_verloop_3422" data-name="Naamloos verloop 3422" x1="1478.06" y1="1070.93" x2="2063.82" y2="1070.93" gradientTransform="translate(-11.62 -71.92) rotate(2.53)" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#f2ba83"/>
+                <stop offset=".58" stop-color="#cb896b"/>
+                <stop offset=".66" stop-color="#c48367"/>
+                <stop offset=".77" stop-color="#b1755c"/>
+                <stop offset=".91" stop-color="#935e4a"/>
+                <stop offset="1" stop-color="#794a3b"/>
+            </linearGradient>
+            <linearGradient id="Naamloos_verloop_3803-2" data-name="Naamloos verloop 3803" x1="1996.03" y1="1125.95" x2="1996.03" y2="855.78" xlinkHref="#Naamloos_verloop_3803-1"/>
+            <linearGradient id="_ÂÁ_Ï_ÌÌ_È_ËÂÌÚ_64" data-name="¡ÂÁ˚ÏˇÌÌ˚È „‡‰ËÂÌÚ 64" x1="2152.39" y1="932.37" x2="2152.39" y2="932.09" gradientTransform="translate(-209.22 220.74) rotate(-1.08) scale(1.02 .99) skewX(-15.16)" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#b449b3"/>
+                <stop offset=".14" stop-color="#bb5cbb"/>
+                <stop offset=".43" stop-color="#d08ecf"/>
+                <stop offset=".83" stop-color="#f1ddf1"/>
+                <stop offset=".99" stop-color="#fff"/>
+            </linearGradient>
+            <linearGradient id="Naamloos_verloop_3803-3" data-name="Naamloos verloop 3803" x1="2152.9" y1="975.77" x2="2152.9" y2="861.11" xlinkHref="#Naamloos_verloop_3803-1"/>
+            <linearGradient id="Naamloos_verloop_3993" data-name="Naamloos verloop 3993" x1="1978.9" y1="965.81" x2="2049.94" y2="925.22" gradientTransform="translate(-209.22 220.74) rotate(-1.08) scale(1.02 .99) skewX(-15.16)" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#ffad87"/>
+                <stop offset=".3" stop-color="#bf856e"/>
+                <stop offset=".63" stop-color="#7f5d55"/>
+                <stop offset=".87" stop-color="#564445"/>
+                <stop offset="1" stop-color="#473b40"/>
+            </linearGradient>
+            <linearGradient id="linear-gradient-4" x1="1884.5" y1="918.67" x2="1916.57" y2="918.67" gradientTransform="translate(-209.22 220.74) rotate(-1.08) scale(1.02 .99) skewX(-15.16)" xlinkHref="#linear-gradient"/>
+        </defs>
+        <g style={{ isolation: "isolate" }}>
+            <g id="Rock_3" data-name="Rock 3" className="rock3">
+            <g>
+                <path d="M1832.35,961.92c-1.93,3.07-8.32,9.86-15.7,18.13h0s-.15.17-.42.48c-1.06,1.18-2.13,2.4-3.2,3.62-8.84,10.08-8.3,9.6-12.07,12.05-3.77,2.45-37.08,31.49-42.91,33.32-5.85,1.85-34.38-21.52-41.75-24.48-7.36-2.94-10.51,1.11-24.07-8.58-6.4-4.57-23.88-19.43-35.71-29.6-.01-.01-.03-.02-.03-.02-6.73-5.79-11.62-10.05-11.62-10.05-3.1-1.19,64.81-7.1,126.09-5.45,61.27,1.65,63.66,7,61.4,10.57Z" fill="url(#linear-gradient-1)" fillRule="evenodd"/>
+                <path d="M1816.22,980.52c-1.06,1.18-2.13,2.4-3.2,3.62-8.84,10.08-8.3,9.6-12.07,12.05-3.77,2.45-37.08,31.49-42.91,33.32-5.85,1.85-34.38-21.52-41.75-24.48-7.36-2.94-10.51,1.11-24.07-8.58-6.4-4.57-23.88-19.43-35.71-29.6,1.13.69,37.61,22.46,49.06,26.57,11.6,4.18,12.41,9.79,24.68,5.06,12.26-4.74,39-16.41,44.35-18.8,5.35-2.38,7.16-7.78,7.16-7.78l-14.99-2.99s15.97-1.63,22.95-1.15c6.97.47-5.11,8.87-9.01,13.76-3.88,4.89-16.63.48-28.6,10.62-11.99,10.13,6.74,17.59,15.77,18.88,9.02,1.27,25.04-14.85,32.23-17.63,6.29-2.43,14.2-10.82,16.11-12.89Z" fill="url(#linear-gradient-2)" fillRule="evenodd"/>
+                <path d="M1715.4,1004.71c-2.02-.56,18.03-4.66,28.7-1.36,10.67,3.3,18.38,11.3,20.86,14.38,2.49,3.08-3.47,8.3-7.76,9.45-4.29,1.14-33.85-18.81-37-21.03-3.15-2.23-4.81-1.43-4.81-1.43Z" fill="url(#Naamloos_verloop_4015)" fillRule="evenodd"/>
+                <path d="M1722.29,1002.38s10.27-4.74,16.01-7.13c5.73-2.39,27.8-11.76,32.51-13.89,4.71-2.13,8.5-3.56,9.89-7.26,1.39-3.7-9.58-4.7-9.58-4.7,0,0,13.82,1.87,17.27.76,3.45-1.11-8.68,10.87-10.51,12.3-1.83,1.43-18.02.95-28.65,11.45-6.18,6.1-4.18,7.55-9.74,6.78-5.56-.77-17.2,1.69-17.2,1.69Z" fill="url(#linear-gradient-3)" fillRule="evenodd"/>
+                <path d="M1740.83,948.66c-63.44-.18-93.88,7.8-93.88,7.8,3.96,3.43,37.99,25.13,77.22,23.19,39.23-1.94,55.42-6.3,57.58-7.73s-29.15-4.91-44.59-5.59c-15.44-.68,28.4-1.89,43.52.08,0,0,5.67,2.22,14.67,2.16,9-.06,19.28-4.61,19.28-4.61,0,0-.46.09-1.29.23,9.22-1.61,16.97-3.61,19.16-4.94,4.85-2.93-28.24-10.41-91.68-10.58Z" fill="url(#Naamloos_verloop_746)" fillRule="evenodd"/>
+            </g>
+            </g>
+            <g id="Rock_2" data-name="Rock 2" className="rock2">
+            <g>
+                <path d="M1748.45,1088.69c-2.65,1.32-6.65,10.86-9.26,14.13-.2.25-.81.68-1.74,1.25-.05.02-.09.04-.13.07-.15.1-.32.19-.48.29-.1.05-.21.14-.34.21-.49.28-1.07.59-1.69.94-.03.02-.05.03-.06.03-15.72,8.62-67.6,33.13-76.14,42.36-9.9,10.7-14.33,15.82-16.97,17.15-2.65,1.33-24.54,21.53-28.79,23.74-4.26,2.22-46.49-10.96-53.16-16.98-6.66-6.02-2.12-7.41-7.9-8.88-5.79-1.48-45.88-39.22-49.21-43.28-3.34-4.03-2.98-7.81-5.48-9.22-2.5-1.42-6.01-3.16-5.38-7.55.62-4.37-31.51,5.63-35.72,2.35-2.54-1.99-16.25-15.03-26.54-25.56-.07-.06-.1-.1-.1-.1-6.72-6.87-11.96-12.65-11.66-13.56,1.82-5.61,240.87-18.54,249.26-18.18,8.39.36,18.84,2.85,29.52,2.55,10.68-.31,83.82.87,85.78.51,1.96-.36-31.13,36.4-33.78,37.73Z" fill="url(#Naamloos_verloop_3803-1)" fillRule="evenodd"/>
+                <path d="M1417.68,1066.09s55.39,27.6,154.45,32.76c99.06,5.16,150.23-9.16,160.89-12.7,10.66-3.54-9.97-3.85-29.45-2.95-19.49.89-33.64,1.07-33.64,1.07,0,0,31.29-3.18,54.44-4.19,23.16-1.01,57.23-26.81,57.85-29.1.63-2.29-87.76-2.56-99.22-1.28-11.46,1.28-5.29-2.65-22-3.68-16.71-1.03-200.13,11.45-243.33,20.08Z" fill="url(#Naamloos_verloop_3422)" fillRule="evenodd"/>
+                <path d="M1684.72,1123.73c10.39-6.74,37.88-11.83,50.04-18.1-15.72,8.62-67.6,33.13-76.14,42.36-9.9,10.7-14.33,15.82-16.97,17.15-2.65,1.33-24.54,21.53-28.79,23.74-4.26,2.22-46.49-10.96-53.16-16.98-6.66-6.02-2.12-7.41-7.9-8.88-5.79-1.48-45.88-39.22-49.21-43.28-3.34-4.03-2.98-7.81-5.48-9.22-2.5-1.42-6.01-3.16-5.38-7.55.62-4.37-31.51,5.63-35.72,2.35-2.54-1.99-16.25-15.03-26.54-25.56,1.98,1.65,30.51,25.6,35.62,25.27,5.29-.35,28.91-8.85,30.58-9.22,1.67-.37-6.77-7.57-6.77-7.57,0,0,27.4,6.29,29.13,6.86,1.71.57-15.91,1.44-19.02,5.89-3.09,4.45,36.62,51.76,49.3,56.5,12.69,4.72,9.89-1.73,17.61-4.93,7.71-3.2,12.63-15.81,14.55-29.25,1.92-13.45-4.12-24.25-4.12-24.25l9.16.38s19,.68,22.74,1.04c3.76.34,2.25,16.06,11.53,25.1,9.26,9.05,5.85,18.89,2.88,31.45-2.97,12.55-3.63,16.94-3.63,16.94,0,0,.12-12.98,2.22-20.67,2.1-7.69,5.25-9.98,2.22-20.15-3.03-10.17-5.06-3.42-8.02-6.14-2.96-2.7-3.59-16.69-7.21-19.37-3.61-2.69-19.3-6.4-22.64,8.03-3.33,14.43-6.86,21.3-5.68,30.28,1.17,9-12.21,9.4-13.75,18.69.79,4.5,16.05,11.53,29.65,14.52,13.61,3,16.99,4.44,29.43-9.95,12.44-14.41,25.73-26.66,26.57-23.25.82,3.39,21.82-15.02,32.93-22.22Z" fill="url(#Naamloos_verloop_3803-2)" fillRule="evenodd"/>
+                <path d="M1737.33,1104.15c-.15.1-.32.19-.48.29.07-.05.13-.09.18-.12.11-.07.21-.12.3-.17Z" fill="url(#_ÂÁ_Ï_ÌÌ_È_ËÂÌÚ_64)" fillRule="evenodd" mix-blend-mode="multiply"/>
+                <path d="M1735.52,1085.04s-5.73,22.19-6.36,23.03c-.62.84,11.42-7.2,12.87-9.82,1.45-2.62,1.41-10.12,12.49-18.76,11.08-8.64,12.7-14.37,12.7-14.37,0,0-27.48,14.1-42.85,14.96,0,0,9.79,1.25,11.14,4.97Z" fill="url(#Naamloos_verloop_3803-3)" fillRule="evenodd"/>
+                <path d="M1619.75,1125.58c-10.03-12,.59-19.57,3.14-21.52,2.55-1.95-1.17-6.03.5-7.02,1.67-.99,10.22-5.52,10.22-5.52,0,0-21.83,3.04-30.86,5.64-9.03,2.6,6.14,2.67,8.18,12.57s5.06,15.75,8.82,15.85Z" fill="url(#Naamloos_verloop_3993)" fillRule="evenodd"/>
+                <path d="M1491.71,1102.96c3.02-2.25,6.45-3.4,8.68-5.55,2.24-2.15-5.53-8.67-5.53-8.67l-13.7-2.34s10.24,5.47,11.61,9.58c1.38,4.12-26.64,9.37-26.64,9.37,0,0,23.04-6.4,25.56-2.4Z" fill="url(#linear-gradient-4)" fillRule="evenodd"/>
+            </g>
+            </g>
+        </g>
+</svg>
+    )
+}
+
+export default Rocks;

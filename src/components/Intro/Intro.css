@@ -1,15 +1,16 @@
-.container-h1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.7rem;
-    margin-bottom: 2rem; 
-  }
-  
-  .container-h2 {
-    margin-bottom: 2rem; 
+.h1-intro {
+    line-height: 1.4; 
+}
+
+.intro-wrapper .intro {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;     
+    padding: 0 2rem;   
+    position: relative;
+    top: -10vh;
   }
 
-  .container-h2 h2 {
-    line-height: 2;
+  .intro-text {
+    margin-top: 2rem;
   }

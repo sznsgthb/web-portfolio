@@ -1,7 +1,7 @@
 .logo-container-gd {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 2rem; 
     max-width: 900px;
@@ -12,7 +12,7 @@
 .logo-container-fe {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 2rem; 
     max-width: 1100px;
@@ -23,7 +23,7 @@
   .logo-container-be {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 2rem; 
     max-width: 360px;
