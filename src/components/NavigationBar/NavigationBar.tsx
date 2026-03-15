@@ -11,8 +11,8 @@ function NavigationBar({ scrollToPage } : NavigationBarProps ) {
       const width = useAdaptiveTriggers({})
 
     const handleClick = (page: Pages) => {
-        const offset = parallaxConfig[width][page].offset;
-        scrollToPage(offset); // scrollToPage blijft number
+        const scroll = parallaxConfig[width][page].scroll;
+        scrollToPage(scroll); // scrollToPage blijft number
         setOpen(false);
     };
 

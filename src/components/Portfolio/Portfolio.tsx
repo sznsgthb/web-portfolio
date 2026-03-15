@@ -46,10 +46,10 @@ function PortfolioPage() {
         {
             id: 5,
             title: 'Robo Friends',
-            description: 'A simple, scrollable React (classes) interface that generates a lineup of some awesome looking robots from an external API. Includes a live search bar to help you find your favorite bot with ease.',
+            description: 'A simple, scrollable React interface that generates a lineup of some awesome looking robots from an external API. Includes a live search bar to help you find your favorite bot with ease.',
             image: thumbnail6,
-            link1: 'https://sznsgthb.github.io/robofriends/',
-            link2: 'https://github.com/sznsgthb/robofriends'
+            link1: 'https://sznsgthb.github.io/robo-friends/',
+            link2: 'https://github.com/sznsgthb/robo-friends'
         },
         {
             id: 6,

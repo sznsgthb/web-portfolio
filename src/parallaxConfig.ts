@@ -4,7 +4,7 @@ import type { PageConfig, LayoutConfig } from './types.js';
 
 export const parallaxConfig: Record<Adaptive, Record<Pages, PageConfig> & LayoutConfig> = {
     [Adaptive.xs]: {
-        pages: 9.35,
+        pages: 9.45,
         [Pages.home]: {
             offset: 0,
             speed: 0,
@@ -36,6 +36,7 @@ export const parallaxConfig: Record<Adaptive, Record<Pages, PageConfig> & Layout
         [Pages.intro]: {
             offset: 1.5,
             speed: 0.2,
+            scroll: 1.2
         },
         [Pages.background]: {
             offset: 3,
@@ -44,21 +45,25 @@ export const parallaxConfig: Record<Adaptive, Record<Pages, PageConfig> & Layout
         [Pages.portfolio]: {
             offset: 2.6,
             speed: 0.5,
+            scroll: 2.3,
         },
         [Pages.tools]: {
             offset: 6,
             speed: 0.5,
+            scroll: 5.9,
         },
         [Pages.about]: {
             offset: 7.3,
             speed: 0.5,
+            scroll: 7.1,
         },
         [Pages.contact]: {
             offset: 8.6,
             speed: 0.5,
+            scroll: 8.3,
         },
         [Pages.footer]: {
-            offset: 9.3,
+            offset: 9.4,
             speed: 0,
         }
     },
@@ -95,6 +100,7 @@ export const parallaxConfig: Record<Adaptive, Record<Pages, PageConfig> & Layout
         [Pages.intro]: {
             offset: 1.5,
             speed: 0.2,
+            scroll: 1.2
         },
         [Pages.background]: {
             offset: 2.9,
@@ -103,18 +109,22 @@ export const parallaxConfig: Record<Adaptive, Record<Pages, PageConfig> & Layout
         [Pages.portfolio]: {
             offset: 2.5,
             speed: 0.5,
+            scroll: 2.2,
         },
         [Pages.tools]: {
             offset: 6.5,
             speed: 0.5,
+            scroll: 6.2,
         },
         [Pages.about]: {
             offset: 7.5,
             speed: 0.5,
+            scroll: 7.3,
         },
         [Pages.contact]: {
             offset: 8.5,
             speed: 0.5,
+            scroll: 8.3,
         },
         [Pages.footer]: {
             offset: 9.2,
@@ -154,6 +164,7 @@ export const parallaxConfig: Record<Adaptive, Record<Pages, PageConfig> & Layout
         [Pages.intro]: {
             offset: 1.4,
             speed: 0.4,
+            scroll: 1.1
         },
         [Pages.background]: {
             offset: 2.9,
@@ -162,22 +173,27 @@ export const parallaxConfig: Record<Adaptive, Record<Pages, PageConfig> & Layout
         [Pages.portfolio]: {
             offset: 2.1,
             speed: 0.5,
+            scroll: 2.0,
         },
         [Pages.tools]: {
             offset: 6.9,
             speed: 0.5,
+            scroll: 6.5,
         },
         [Pages.about]: {
             offset: 7.7,
             speed: 0.5,
+            scroll: 7.5,
         },
         [Pages.contact]: {
             offset: 8.7,
             speed: 0.5,
+            scroll: 8.5,
         },
         [Pages.footer]: {
             offset: 9.3,
             speed: 0,
+            scroll: 9.1,
         }
     },
     [Adaptive.l]: {
@@ -213,6 +229,7 @@ export const parallaxConfig: Record<Adaptive, Record<Pages, PageConfig> & Layout
         [Pages.intro]: {
             offset: 1.7,
             speed: 0.4,
+            scroll: 1.3
         },
         [Pages.background]: {
             offset: 3.8,
@@ -221,18 +238,22 @@ export const parallaxConfig: Record<Adaptive, Record<Pages, PageConfig> & Layout
         [Pages.portfolio]: {
             offset: 2.5,
             speed: 0.5,
+            scroll: 2.2,
         },
         [Pages.tools]: {
             offset: 7.9,
             speed: 0.5,
+            scroll: 7.5,
         },
         [Pages.about]: {
             offset: 8.9,
             speed: 0.5,
+            scroll: 8.5,
         },
         [Pages.contact]: {
             offset: 9.8,
             speed: 0.5,
+            scroll: 9.4,
         },
         [Pages.footer]: {
             offset: 10.4,
@@ -273,6 +294,7 @@ export const parallaxConfig: Record<Adaptive, Record<Pages, PageConfig> & Layout
         [Pages.intro]: {
             offset: 1.7,
             speed: 0.3,
+            scroll: 1.3,
         },
         [Pages.background]: {
             offset: 3.8,
@@ -281,18 +303,22 @@ export const parallaxConfig: Record<Adaptive, Record<Pages, PageConfig> & Layout
         [Pages.portfolio]: {
             offset: 2.7,
             speed: 0.5,
+            scroll: 2.4,
         },
         [Pages.tools]: {
             offset: 8,
             speed: 0.5,
+            scroll: 7.9,
         },
         [Pages.about]: {
             offset: 9,
             speed: 0.5,
+            scroll: 8.9,
         },
         [Pages.contact]: {
             offset: 10,
             speed: 0.5,
+            scroll: 9.9,
         },
         [Pages.footer]: {
             offset: 10.9,
