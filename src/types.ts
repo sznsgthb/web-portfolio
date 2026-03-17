@@ -39,7 +39,7 @@ export  interface UseAdaptiveTriggersProps {
 export interface PageConfig {
     offset: number
     speed: number
-    scroll?: number | undefined
+    scroll?: number
 }
 
 export interface LayoutConfig {

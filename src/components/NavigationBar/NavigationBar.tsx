@@ -12,7 +12,9 @@ function NavigationBar({ scrollToPage } : NavigationBarProps ) {
 
     const handleClick = (page: Pages) => {
         const scroll = parallaxConfig[width][page].scroll;
-        scrollToPage(scroll); // scrollToPage blijft number
+        if (scroll !== undefined) {
+            scrollToPage((scroll)); // scrollToPage blijft number
+        }
         setOpen(false);
     };
 
